@@ -1,0 +1,60 @@
+:root {
+  --clr-white: #fff;
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --fixed-width: 620px;
+  --spacing: 0.1rem;
+}
+/* nav */
+nav {
+  display: grid;
+  background: var(--clr-white);
+  height: 3rem;
+  align-items: center;
+  box-shadow: var(--dark-shadow);
+  justify-content: center;
+}
+.nav-center {
+  display: flex;
+  width: 90vh;
+  max-width: var(--fixed-width);
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.nav-links {
+  display: flex;
+}
+
+nav a {
+  text-transform: capitalize;
+  font-weight: 700;
+  font-size: 1rem;
+
+  margin-right: 1rem;
+}
+
+main {
+  display: grid;
+  place-items: center;
+  margin: 20px 0;
+}
+
+.container {
+  text-align: center;
+}
+
+.container h2 {
+  background: #222;
+  border-radius: 1px;
+  color: var(--clr-white);
+  padding: 1rem;
+}
+.color {
+  color: cornflowerblue;
+}
+
+button {
+  border: 1px solid;
+  font-size: 1rem;
+  padding: 0.75rem 1.25rem;
+}
