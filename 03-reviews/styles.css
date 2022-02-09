@@ -1,0 +1,67 @@
+main {
+  display: grid;
+
+  place-items: center;
+}
+
+.container {
+  width: 30vw;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.underline {
+  height: 0.25rem;
+  width: 5rem;
+  background: blue;
+  margin: 0 auto;
+}
+
+.review {
+  background: #fff;
+  padding: auto;
+  border-radius: 3px;
+  box-shadow: 0 0 10px rgba(0, 0, 1);
+  text-align: center;
+}
+
+.img-container {
+  padding: 1rem;
+}
+
+#job {
+  color: rgb(195, 65, 163);
+}
+
+#info {
+  margin-bottom: -0.75rem;
+  word-wrap: break-word;
+  padding: 0.5rem;
+}
+
+.button-container {
+  margin: 1rem;
+}
+
+.prev-btn,
+.next-btn {
+  font-size: 1.25rem;
+  margin: 0 0.5rem;
+
+  color: rgb(43, 86, 202);
+  cursor: pointer;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  color: crimson;
+}
+
+.random-btn {
+  margin: 0.5rem 0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.5rem;
+}
