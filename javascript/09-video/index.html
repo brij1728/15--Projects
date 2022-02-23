@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Video</title>
+    <script
+      src="https://kit.fontawesome.com/aec3b209d9.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader">
+      <img src="giphy.gif" alt="preloader" class="preloader__item" />
+    </div>
+
+    <!-- header -->
+    <header>
+      <video
+        class="video-container"
+        width="100%"
+        height="100%"
+        contorls
+        muted
+        autoplay
+        loop
+      >
+        <source src="video1.mp4" type="video/mp4" />
+      </video>
+      <h2>Video Project</h2>
+      <!-- video switch -->
+      <button class="switch-btn">
+        <span>play</span>
+        <span>pause</span>
+        <span class="switch"></span>
+      </button>
+    </header>
+    <script src="app.js"></script>
+  </body>
+</html>
